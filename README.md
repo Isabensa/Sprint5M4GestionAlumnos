@@ -38,8 +38,11 @@ Navegación
 | `*` | Página 404 personalizada |
 
 Captura de pantalla
-![alt text](image-1.png)
+![Captura del proyecto](./public/readimg.jpg)
+
  
+En Netlify: https://gestionalumnosisa.netlify.app/alumnos
+
 
 Autora
 Creado por Isa, docente, mamá, profesional, y entusiasta de la tecnología educativa (y del caos con estilo, intentando educar no tan entusiastas adolescentes).
