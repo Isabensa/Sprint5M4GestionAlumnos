@@ -72,7 +72,7 @@ const AlumnoCreate = () => {
 
     const alumnoConAvatar = {
       ...form,
-      edad: edadNum, // ⚠️ Asegura que edad sea número
+      edad: edadNum, //Asegura que edad sea número
       avatar:
         avatar.trim() !== ""
           ? avatar

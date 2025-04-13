@@ -31,7 +31,6 @@ const SobreNosotros = () => {
         </div>
       </div>
 
-      
       <motion.img
         src="/aboutus.jpg"
         alt="Sobre nosotros"

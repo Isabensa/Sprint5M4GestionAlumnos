@@ -1,12 +1,45 @@
-# React + Vite
+Gestión de Alumnos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para permitir una gestión moderna, visual y efectiva de alumnos de una institución educativa.
 
-Currently, two official plugins are available:
+Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React + Vite
+- 💅 Tailwind CSS
+- 🌐 React Router DOM
+- 💾 MockAPI
+- 🧠 Context API
+- 📡 Axios
+- 💬 SweetAlert2
+- 🔔 React Toastify
+- 🌀 Framer Motion
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Funcionalidades
+
+- 📋 Ver listado de alumnos.
+- 🔍 Ver detalle de cada alumno.
+- ➕ Agregar nuevos alumnos.
+- ✏️ Editar datos de alumnos.
+- ❌ Eliminar con confirmación.
+- ⚠️ Página 404 personalizada (con toast exagerado y humorístico).
+- 📄 Secciones extra: Sobre Nosotros y Contáctenos.
+
+
+Navegación
+
+| Ruta | Funcionalidad |
+| `/alumnos` | Lista de alumnos |
+| `/alumnos/create` | Agregar alumno |
+| `/alumnos/:id` | Ver detalle |
+| `/alumnos/edit/:id` | Editar alumno |
+| `/contacto` | Medios de contacto |
+| `/sobre-nosotros` | Descripción del proyecto |
+| `*` | Página 404 personalizada |
+
+Captura de pantalla
+![alt text](image-1.png)
+ 
+
+Autora
+Creado por Isa, docente, mamá, profesional, y entusiasta de la tecnología educativa (y del caos con estilo, intentando educar no tan entusiastas adolescentes).
